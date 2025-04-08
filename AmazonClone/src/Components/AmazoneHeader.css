@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+.header {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px ;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* width: fit-content; */
+    cursor: pointer;
+    flex-basis: 0%;
+    flex-shrink: 0;
+    
+  }
+  
+  .amazon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  img{
+    height: 30px;
+    width: 100px;
+  }
+  h1{
+    font-size: 1rem;
+    font-style: normal;
+    color: rgb(204, 199, 199);
+
+  }
+  p{
+    color: white;
+  }
+  .photo{
+    height: 15px;
+    width: 20px;
+    /* padding: 10px; */
+  }
+  
+  .option{
+    padding: 20px;
+    margin: 10px;
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    margin-top: 17px;
+    font-size: 20px;
+    
+  }
+  
+  .update-location {
+    color: #00a8e1;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-grow: 1;
+    max-width: 1000px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 2px;
+    border: none;
+  }
+  
+  .search-dropdown {
+    background: #e6e6e6;
+    border: none;
+    padding: 8px;
+    width: 90px;
+    /* width:fit-content; */
+
+    
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+   
+
+   option{
+    background: white;
+   }
+  .search-button {
+    background: #f3b15a;
+    padding: 9px 13px ;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    
+  }
+  
+  .search-icon {
+    color: white;
+    width: fit-content;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    width: fit-content;
+  }
+  
+  .account .orders {
+    text-align: center;
+  }
+  
+  
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .cart-icon {
+    font-size: 22px;
+  }
+ .nav{
+  color: rgb(250, 252, 253);
+  background: rgb(81, 84, 105);
+  height: 30px;
+  gap: 20px;
+  font-size: 20px;
+  }
+ 
